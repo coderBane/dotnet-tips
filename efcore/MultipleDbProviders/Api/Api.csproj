@@ -24,5 +24,11 @@
     <ProjectReference Include="..\Migrators\Migrators.Sqlite\Migrators.Sqlite.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
+    <ProjectReference Include="..\Migrators\Migrators.Mssql\Migrators.Mssql.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+    <ProjectReference Include="..\Migrators\Migrators.Npgsql\Migrators.Npgsql.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
   </ItemGroup>
 </Project>
