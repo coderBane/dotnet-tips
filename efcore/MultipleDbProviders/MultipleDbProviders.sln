@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Migrators.Sqlite", "Migrators\Migrators.Sqlite\Migrators.Sqlite.csproj", "{68813547-B5AA-4877-A75A-A94E8860123B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Migrators.Npgsql", "Migrators\Migrators.Npgsql\Migrators.Npgsql.csproj", "{8F8194CE-FD9C-4885-AF4C-76F1068B0404}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Migrators.Mssql", "Migrators\Migrators.Mssql\Migrators.Mssql.csproj", "{2B702B29-CC3C-4DDA-BFB7-B1D4804ED8DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{68813547-B5AA-4877-A75A-A94E8860123B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68813547-B5AA-4877-A75A-A94E8860123B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68813547-B5AA-4877-A75A-A94E8860123B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F8194CE-FD9C-4885-AF4C-76F1068B0404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F8194CE-FD9C-4885-AF4C-76F1068B0404}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F8194CE-FD9C-4885-AF4C-76F1068B0404}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F8194CE-FD9C-4885-AF4C-76F1068B0404}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B702B29-CC3C-4DDA-BFB7-B1D4804ED8DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B702B29-CC3C-4DDA-BFB7-B1D4804ED8DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B702B29-CC3C-4DDA-BFB7-B1D4804ED8DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B702B29-CC3C-4DDA-BFB7-B1D4804ED8DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
