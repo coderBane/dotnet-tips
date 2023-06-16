@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace Data.Migrations
+namespace Migrators.Sqlite.Migrations
 {
     /// <inheritdoc />
     public partial class TestMig : Migration

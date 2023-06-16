@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace Data.Migrations
+namespace Migators.Sqlite.Migrations
 {
     [DbContext(typeof(SampleDbContext))]
     partial class SampleDbContextModelSnapshot : ModelSnapshot
