@@ -7,9 +7,10 @@ var builder = WebApplication.CreateBuilder(args);
 var configuration = builder.Configuration;
 
 // Add services to the container.
-builder.Services.AddDbContextFactory<SampleDbContext>(options =>
-    options.UseSqlite(configuration.GetConnectionString("DefaultConnection"), opts =>
-        opts.MigrationsAssembly("Migrators.Sqlite")));
+var provider = configuration.GetValue("Provider", "sqlite");
+builder.Services.AddDbContextFactory<SampleDbContext>(options => options.UseDatabase(configuration, provider));
+//builder.Services.AddDbContextFactory<SampleDbContext>(options =>
+//    options.UseNpgsql(configuration.GetConnectionString("NPGSQLConnection")));
 
 builder.Services.AddHostedService<Worker>();
 
