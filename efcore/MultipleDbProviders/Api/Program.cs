@@ -8,7 +8,8 @@ var configuration = builder.Configuration;
 
 // Add services to the container.
 builder.Services.AddDbContextFactory<SampleDbContext>(options =>
-    options.UseSqlite(configuration.GetConnectionString("DefaultConnection")));
+    options.UseSqlite(configuration.GetConnectionString("DefaultConnection"), opts =>
+        opts.MigrationsAssembly("Migrators.Sqlite")));
 
 builder.Services.AddHostedService<Worker>();
 

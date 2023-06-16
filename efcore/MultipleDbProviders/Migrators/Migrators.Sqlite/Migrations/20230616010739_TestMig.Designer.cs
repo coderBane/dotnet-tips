@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace Data.Migrations
+namespace Migrators.Sqlite.Migrations
 {
     [DbContext(typeof(SampleDbContext))]
     [Migration("20230616010739_TestMig")]
